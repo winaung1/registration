@@ -7,8 +7,8 @@ import { FaGoogle } from "react-icons/fa";
 export const Registration = () => {
   const [isLogin, setIsLogin] = useState(false);
   return (
-    <div className="px-4 max-w-7xl mx-auto space-x-20 flex justify-center items-center h-screen">
-      <div className="w-[40%]">
+    <div className="px-4 max-w-7xl mx-auto lg:space-x-20 flex justify-center items-center h-screen">
+      <div className="lg:w-[40%]">
       {isLogin ? <Login /> : <Signup />}
         <div className="pb-4 text-sm flex items-center justify-between">
             <p>{isLogin ? "Don't have an account?" : 'Already have an account?'}</p>
